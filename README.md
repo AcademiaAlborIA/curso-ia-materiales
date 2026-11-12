@@ -46,6 +46,7 @@ Aquí puedes descargar **gratis y en un solo clic** los paquetes `.zip` con las 
 | :--- | :--- | :--- |
 | **M03 · Cap. 01** | Python práctico: variables, condiciones, funciones y errores | [⬇️ Descargar `M03-C01-Python-practico-codigo-y-cuaderno.zip`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-03/M03-C01-Python-practico-codigo-y-cuaderno.zip) |
 | **M03 · Cap. 02** | Trabaja con archivos, tablas y datos usando `pandas` | [⬇️ Descargar `M03-C02-Pandas-datos-y-cuaderno.zip`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-03/M03-C02-Pandas-datos-y-cuaderno.zip) · [📄 `casas.csv`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-03/casas.csv) |
+| **M03 · Cap. 03** | Vectores y matrices con `NumPy`: números que representan información | [⬇️ Descargar `M03-C03-NumPy-vectores-matrices-y-cuaderno.zip`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-03/M03-C03-NumPy-vectores-matrices-y-cuaderno.zip) · [📄 `casas_limpias.csv`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-03/casas_limpias.csv) |
 
 ---
 
