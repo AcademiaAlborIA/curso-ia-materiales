@@ -1,0 +1,9 @@
+barrio,metros,habitaciones,jardin,precio
+Centro,80,2,True,125000
+Centro,55,1,False,90000
+Norte,120,3,True,165000
+Norte,95,3,False,130000
+Sur,60,2,False,70000
+Sur,150,4,True,185000
+Centro,,2,False,110000
+Norte,70,2,False,98000
