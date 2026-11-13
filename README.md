@@ -53,6 +53,14 @@ Aquí puedes descargar **gratis y en un solo clic** los paquetes `.zip` con las 
 
 ---
 
+## ✨ Módulo 4 · IA Generativa y Asistentes: del Pedido al Resultado
+
+| Capítulo | Tema de la clase | Paquete descargable (1 clic) |
+| :--- | :--- | :--- |
+| **M04 · Cap. 01** | Qué puede hacer un modelo generativo y cuáles son sus límites | [⬇️ Descargar `M04-C01-Capacidades-limites-y-cuaderno.zip`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-04/M04-C01-Capacidades-limites-y-cuaderno.zip) · [📄 `casos_libreria_faro.json`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-04/casos_libreria_faro.json) |
+
+---
+
 ## 🛠️ ¿Cómo usar cada archivo `.zip`?
 1. Haz clic en el enlace **Descargar** correspondiente al capítulo que estás viendo.
 2. En tu computadora, haz clic derecho sobre el archivo `.zip` descargado y selecciona **Extraer todo...** (Windows) o haz doble clic (Mac).

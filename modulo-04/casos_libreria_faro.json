@@ -1,0 +1,93 @@
+{
+  "reglas_faro": {
+    "negocio": "Librería Faro",
+    "plazo_devolucion_dias": 15,
+    "condicion_devolucion": "Libro sellado en su empaque original y con ticket de compra.",
+    "envio_gratis_desde_usd": 45,
+    "costo_envio_estandar_usd": 4.5,
+    "horario_sabado": "10:00 a 14:00",
+    "pedidos_abril_usd": [
+      28.0,
+      52.5,
+      19.0,
+      64.0,
+      35.5,
+      48.0,
+      22.0,
+      71.0
+    ]
+  },
+  "tareas_semaforo": [
+    {
+      "id": 1,
+      "tarea": "Convertir 3 notas internas de retraso en un correo amable de 35 palabras",
+      "color_correcto": "VERDE",
+      "motivo": "Tú entregas todos los datos y revisas el borrador en segundos."
+    },
+    {
+      "id": 2,
+      "tarea": "Proponer 5 ideas de asuntos para el boletín mensual de clubes de lectura",
+      "color_correcto": "VERDE",
+      "motivo": "Tarea creativa abierta donde tú eliges la mejor opción."
+    },
+    {
+      "id": 3,
+      "tarea": "Resumir 6 reseñas reales de clientes pegadas dentro del mensaje",
+      "color_correcto": "AMBAR",
+      "motivo": "Funciona muy bien si pegas las reseñas y verificas que no invente quejas."
+    },
+    {
+      "id": 4,
+      "tarea": "Responder a un cliente sobre plazos de devolución usando el reglamento",
+      "color_correcto": "AMBAR",
+      "motivo": "Solo es seguro si pegas el reglamento oficial (15 días, libro sellado) y auditas la salida."
+    },
+    {
+      "id": 5,
+      "tarea": "Sumar a ojo 200 facturas de abril con descuentos e impuestos",
+      "color_correcto": "ROJO",
+      "motivo": "Riesgo alto de error aritmético; usa Python o una hoja de cálculo."
+    },
+    {
+      "id": 6,
+      "tarea": "Consultar cuántas copias quedan hoy en bodega sin conectar inventario",
+      "color_correcto": "ROJO",
+      "motivo": "El modelo no ve tu base de datos en tiempo real."
+    },
+    {
+      "id": 7,
+      "tarea": "Explicar qué hace una función de validación en Python línea por línea",
+      "color_correcto": "VERDE",
+      "motivo": "Explicación pedagógica fácil de comprobar ejecutando el código."
+    },
+    {
+      "id": 8,
+      "tarea": "Pegar tarjetas de crédito y teléfonos reales de clientes para clasificarlos",
+      "color_correcto": "ROJO",
+      "motivo": "Riesgo de privacidad: nunca envíes datos sensibles reales a un chat externo."
+    }
+  ],
+  "borradores_auditoria": [
+    {
+      "id": "B1",
+      "escenario": "Aviso de pedido #418 con datos incluidos en el prompt",
+      "borrador": "Hola: por la lluvia de hoy, tu pedido #418 de Librería Faro llegará este jueves. Incluimos un separador ilustrado de cortesía. Gracias por tu paciencia.",
+      "es_fiel": true,
+      "hallazgo": "Fiel a los hechos entregados (lluvia, jueves, separador de cortesía) sin promesas inventadas."
+    },
+    {
+      "id": "B2",
+      "escenario": "Consulta de devolución pedida sin adjuntar el reglamento",
+      "borrador": "En Librería Faro tienes 30 días para devolver cualquier libro aunque esté abierto, con reembolso inmediato.",
+      "es_fiel": false,
+      "hallazgo": "ALUCINACIÓN DOBLE: inventa 30 días (real: 15 días) y permite libro abierto (real: libro sellado)."
+    },
+    {
+      "id": "B3",
+      "escenario": "Respuesta sobre costos de envío escrita de memoria",
+      "borrador": "Todos los pedidos desde 25 dólares tienen envío gratis a domicilio en Librería Faro.",
+      "es_fiel": false,
+      "hallazgo": "ALUCINACIÓN DE UMBRAL: afirma envío gratis desde 25 USD, pero la regla oficial exige 45 USD."
+    }
+  ]
+}
