@@ -58,6 +58,7 @@ Aquí puedes descargar **gratis y en un solo clic** los paquetes `.zip` con las 
 | Capítulo | Tema de la clase | Paquete descargable (1 clic) |
 | :--- | :--- | :--- |
 | **M04 · Cap. 01** | Qué puede hacer un modelo generativo y cuáles son sus límites | [⬇️ Descargar `M04-C01-Capacidades-limites-y-cuaderno.zip`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-04/M04-C01-Capacidades-limites-y-cuaderno.zip) · [📄 `casos_libreria_faro.json`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-04/casos_libreria_faro.json) |
+| **M04 · Cap. 02** | Escribe instrucciones claras: objetivo, contexto, formato y restricciones | [⬇️ Descargar `M04-C02-Instrucciones-claras-y-cuaderno.zip`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-04/M04-C02-Instrucciones-claras-y-cuaderno.zip) · [📄 `plantillas_faro.json`](https://github.com/AcademiaAlborIA/curso-ia-materiales/raw/main/modulo-04/plantillas_faro.json) |
 
 ---
 

@@ -1,0 +1,73 @@
+{
+  "caso_club_lectura": {
+    "negocio": "Librería Faro",
+    "libro": "Cien años de soledad",
+    "fecha": "sábado 18 de mayo",
+    "horario": "11:00 a 12:30",
+    "cupo": 15,
+    "costo": "entrada gratuita con registro previo",
+    "max_palabras": 55,
+    "prohibidas": [
+      "descuento",
+      "café gratis",
+      "bebida gratis",
+      "20:00",
+      "reembolso"
+    ],
+    "obligatorias": [
+      "18 de mayo",
+      "11:00",
+      "15",
+      "Cien años de soledad"
+    ]
+  },
+  "pedidos_vagos_para_reescribir": [
+    {
+      "id": 1,
+      "pedido_vago": "Haz un anuncio para el club de lectura del sábado.",
+      "solucion_4_piezas": {
+        "objetivo": "Redacta una invitación breve para clientes habituales de Librería Faro para que reserven su lugar en el club de lectura.",
+        "contexto": "Libro: 'Cien años de soledad'. Fecha: sábado 18 de mayo, de 11:00 a 12:30. Lugar: Librería Faro. Cupo: 15 personas. Costo: entrada gratuita con registro previo.",
+        "formato": "Un solo párrafo en español neutro.",
+        "restricciones": "Máximo 55 palabras. Usa únicamente los datos entregados; no inventes descuentos ni bebidas gratis. Devuelve solo el borrador."
+      }
+    },
+    {
+      "id": 2,
+      "pedido_vago": "Revisa estas reseñas de clientes y dime qué opinan.",
+      "solucion_4_piezas": {
+        "objetivo": "Clasifica las reseñas adjuntas para el encargado de tienda identificando el motivo principal de cada una.",
+        "contexto": "Se adjuntan 4 reseñas reales delimitadas entre triple guion (---).",
+        "formato": "Tabla Markdown con exactamente 3 columnas: | ID | Categoría (Envío / Horario / Empaque) | Acción sugerida |.",
+        "restricciones": "No añadas introducción ni despedida. Si una reseña menciona dos temas, elige el reclamo principal."
+      }
+    },
+    {
+      "id": 3,
+      "pedido_vago": "Escríbele al proveedor porque llegaron libros dañados.",
+      "solucion_4_piezas": {
+        "objetivo": "Redacta un correo formal al distribuidor editorial solicitando la reposición de ejemplares dañados.",
+        "contexto": "Remisión #892 recibida hoy. 6 ejemplares de 'Rayuela' llegaron con humedad en la portada. Fotos adjuntas al correo.",
+        "formato": "Asunto en la primera línea seguido de un cuerpo de máximo 70 palabras.",
+        "restricciones": "Tono firme y cordial. No amenaces con cancelar contratos ni inventes plazos legales no indicados."
+      }
+    }
+  ],
+  "borradores_club_para_validar": [
+    {
+      "id": "B1",
+      "etiqueta": "Salida de pedido vago (sin contexto ni restricciones)",
+      "texto": "¡No te pierdas este sábado a las 20:00 nuestro increíble club de lectura en Librería Faro! Tendremos café gratis para todos y un descuento especial en caja."
+    },
+    {
+      "id": "B2",
+      "etiqueta": "Salida demasiado larga con saludo de relleno",
+      "texto": "¡Claro! Con mucho gusto redacto tu invitación: Hola queridos amigos lectores, los esperamos este sábado 18 de mayo desde las 11:00 hasta las 12:30 en Librería Faro para comentar juntos Cien años de soledad. Recuerden que la entrada es gratuita pero únicamente contamos con 15 lugares disponibles en sala, así que les recomendamos ampliamente responder cuanto antes a este correo electrónico para asegurar su silla."
+    },
+    {
+      "id": "B3",
+      "etiqueta": "Salida con las 4 piezas completas (Objetivo + Contexto + Formato + Restricciones)",
+      "texto": "Te invitamos este sábado 18 de mayo, de 11:00 a 12:30, al club de lectura de Librería Faro sobre 'Cien años de soledad'. La entrada es gratuita y contamos con 15 lugares. Responde a este mensaje para reservar tu asiento."
+    }
+  ]
+}
